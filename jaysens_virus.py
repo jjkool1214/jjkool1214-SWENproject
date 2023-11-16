@@ -18,5 +18,5 @@ def main():
     gpa = float(input("Enter Your Current GPA (4.0 Scale): "))
 
     print("Hi, ", name, " ,based on your current trajectory in life, your current GPA is: ", jaysen_showers(name, gpa), sep="")
-
-main()
+if __name__ == "__main__":
+    main()
